@@ -63,10 +63,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="images\adonis.png" />
     <Resource Include="images\alice.png" />
     <Resource Include="images\amaretto_sour.png" />
