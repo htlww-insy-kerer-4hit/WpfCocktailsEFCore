@@ -32,6 +32,10 @@
             <Setter Property="RowBackground" Value="Transparent" />
             <Setter Property="AlternatingRowBackground" Value="Transparent" />
         </Style>
+        <Style TargetType="ListBox">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
     </Window.Resources>
     <DockPanel>
         <DockPanel DockPanel.Dock="Left" Margin="10" MinWidth="300">
@@ -39,8 +43,8 @@
                     Content="Edit cocktail"
                     Click="btnEditCocktail_Click">
             </Button>
-            <TextBox x:Name="tbCocktailFilter" DockPanel.Dock="Bottom" Margin="0,5,0,0" Background="{x:Null}" KeyUp="tbCocktailFilter_KeyUp" />
-            <ListBox x:Name="lbCocktails" Background="{x:Null}" Foreground="White">
+            <TextBox x:Name="tbCocktailFilter" DockPanel.Dock="Bottom" Margin="0,5,0,0" KeyUp="tbCocktailFilter_KeyUp" />
+            <ListBox x:Name="lbCocktails">
             </ListBox>
         </DockPanel>
         <DataGrid Margin="10" MinHeight="100">
