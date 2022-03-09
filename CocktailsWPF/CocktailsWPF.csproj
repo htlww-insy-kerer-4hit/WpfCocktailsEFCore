@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\adonis.png" />
+    <None Remove="images\alice.png" />
+    <None Remove="images\amaretto_sour.png" />
+    <None Remove="images\americano.png" />
+    <None Remove="images\aperol_sour.png" />
+    <None Remove="images\b52.png" />
+    <None Remove="images\black_devil.png" />
+    <None Remove="images\black_russian.png" />
+    <None Remove="images\bloody_mary.png" />
+    <None Remove="images\blue_shark.png" />
+    <None Remove="images\bourbon_highball.png" />
+    <None Remove="images\brazil.png" />
+    <None Remove="images\bulldog_highball.png" />
+    <None Remove="images\caipirinha.png" />
+    <None Remove="images\cinderella.png" />
+    <None Remove="images\coconut_kiss.png" />
+    <None Remove="images\el_diabolo.png" />
+    <None Remove="images\el_presidente.png" />
+    <None Remove="images\florida.png" />
+    <None Remove="images\gin_sour.png" />
+    <None Remove="images\golden_nipple.png" />
+    <None Remove="images\kgb.png" />
+    <None Remove="images\long_distance_runner.png" />
+    <None Remove="images\louisiana_sour.png" />
+    <None Remove="images\manhatten_perfect.png" />
+    <None Remove="images\margarita.png" />
+    <None Remove="images\martini_cocktail.png" />
+    <None Remove="images\mary_pickford.png" />
+    <None Remove="images\mojito.png" />
+    <None Remove="images\new_yorker.png" />
+    <None Remove="images\opal.png" />
+    <None Remove="images\park_avenue.png" />
+    <None Remove="images\pina_colada_classic.png" />
+    <None Remove="images\pina_colada_natural.png" />
+    <None Remove="images\pussy_foot.png" />
+    <None Remove="images\rob_roy.png" />
+    <None Remove="images\rum_highball.png" />
+    <None Remove="images\rum_sour.png" />
+    <None Remove="images\screwdriver.png" />
+    <None Remove="images\sex_on_the_beach.png" />
+    <None Remove="images\shirley_temple.png" />
+    <None Remove="images\swimming_pool.png" />
+    <None Remove="images\tequila_popper.png" />
+    <None Remove="images\tequila_sour.png" />
+    <None Remove="images\tequila_sunrise.png" />
+    <None Remove="images\tnt.png" />
+    <None Remove="images\vermouth_cassis.png" />
+    <None Remove="images\vermouth_cocktail.png" />
+    <None Remove="images\vodka_sour.png" />
+    <None Remove="images\whiskey_sour.png" />
+    <None Remove="images\white_russian.png" />
+    <None Remove="images\zombie.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\adonis.png" />
+    <Resource Include="images\alice.png" />
+    <Resource Include="images\amaretto_sour.png" />
+    <Resource Include="images\americano.png" />
+    <Resource Include="images\aperol_sour.png" />
+    <Resource Include="images\b52.png" />
+    <Resource Include="images\black_devil.png" />
+    <Resource Include="images\black_russian.png" />
+    <Resource Include="images\bloody_mary.png" />
+    <Resource Include="images\blue_shark.png" />
+    <Resource Include="images\bourbon_highball.png" />
+    <Resource Include="images\brazil.png" />
+    <Resource Include="images\bulldog_highball.png" />
+    <Resource Include="images\caipirinha.png" />
+    <Resource Include="images\cinderella.png" />
+    <Resource Include="images\coconut_kiss.png" />
+    <Resource Include="images\el_diabolo.png" />
+    <Resource Include="images\el_presidente.png" />
+    <Resource Include="images\florida.png" />
+    <Resource Include="images\gin_sour.png" />
+    <Resource Include="images\golden_nipple.png" />
+    <Resource Include="images\kgb.png" />
+    <Resource Include="images\long_distance_runner.png" />
+    <Resource Include="images\louisiana_sour.png" />
+    <Resource Include="images\manhatten_perfect.png" />
+    <Resource Include="images\margarita.png" />
+    <Resource Include="images\martini_cocktail.png" />
+    <Resource Include="images\mary_pickford.png" />
+    <Resource Include="images\mojito.png" />
+    <Resource Include="images\new_yorker.png" />
+    <Resource Include="images\opal.png" />
+    <Resource Include="images\park_avenue.png" />
+    <Resource Include="images\pina_colada_classic.png" />
+    <Resource Include="images\pina_colada_natural.png" />
+    <Resource Include="images\pussy_foot.png" />
+    <Resource Include="images\rob_roy.png" />
+    <Resource Include="images\rum_highball.png" />
+    <Resource Include="images\rum_sour.png" />
+    <Resource Include="images\screwdriver.png" />
+    <Resource Include="images\sex_on_the_beach.png" />
+    <Resource Include="images\shirley_temple.png" />
+    <Resource Include="images\swimming_pool.png" />
+    <Resource Include="images\tequila_popper.png" />
+    <Resource Include="images\tequila_sour.png" />
+    <Resource Include="images\tequila_sunrise.png" />
+    <Resource Include="images\tnt.png" />
+    <Resource Include="images\vermouth_cassis.png" />
+    <Resource Include="images\vermouth_cocktail.png" />
+    <Resource Include="images\vodka_sour.png" />
+    <Resource Include="images\whiskey_sour.png" />
+    <Resource Include="images\white_russian.png" />
+    <Resource Include="images\zombie.png" />
+  </ItemGroup>
+
+</Project>
