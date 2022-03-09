@@ -13,7 +13,6 @@ namespace CocktailsWPF
 
             lbCocktails.ItemsSource = new string[] { "Cocktail 1", "Cocktail 2" };
             lbCocktails.SelectedIndex = 0;
-            DataContext = this;
         }
 
         private void tbCocktailFilter_KeyUp(object sender, KeyEventArgs e)
